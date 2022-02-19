@@ -17,3 +17,5 @@ clone page  https://dantri.com.vn/
 # b4: đẩy lên github
 
     `git pust origin main`
+
+# icon https://fontawesome.com/
