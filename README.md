@@ -16,4 +16,4 @@ clone page  https://dantri.com.vn/
 
 # b4: đẩy lên github
 
-    `git pust set -- `
+    `git pust origin main`
