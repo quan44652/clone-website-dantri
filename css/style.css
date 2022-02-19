@@ -5,11 +5,81 @@
 }
 
 #main {
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 32px;
 
 }
 
-#menu {
+#menu a {
+text-decoration: none;
     
 }
 
-#menu 
+.all > li {
+display: inline-block;
+}
+
+.all > li >a {
+    line-height: 32px;
+    padding: 3px;
+}
+
+
+#menu .society {
+display: none;
+
+}
+#menu .world {
+display: none;
+
+}
+#menu .busine {
+display: none;
+
+}
+#menu .bds {
+
+display: none;
+}
+#menu .sport {
+display: none;
+
+}
+#menu .job {
+display: none;
+
+}
+#menu .mercy {
+display: none;
+
+}
+#menu .heath {
+display: none;
+
+}
+#menu .cultural {
+
+display: none;
+}
+#menu .entertain {
+display: none;
+
+}
+#menu .car {
+display: none;
+
+}
+#menu .power {
+display: none;
+
+}
+#menu .edu {
+
+display: none;
+}
+#menu .law {
+display: none;
+
+}
