@@ -9,77 +9,55 @@
     left: 0;
     right: 0;
     height: 32px;
+    border-bottom: 2px solid gray;
+    width: 1200px;
+    margin: 0 auto;
 
 }
 
 #menu a {
 text-decoration: none;
+font-size: 12px;
+color: black;
     
 }
 
-.all > li {
+.menu-all > li {
 display: inline-block;
 }
 
-.all > li >a {
+.menu-all  li {
+    position: relative;
+}
+
+.menu-all > li >a {
     line-height: 32px;
     padding: 3px;
+    padding-bottom: 8px;
 }
 
-
-#menu .society {
-display: none;
-
+.menu-all > li >a:hover {
+border-bottom: 3px solid green;
 }
-#menu .world {
-display: none;
 
+#menu .menu-list {
+    min-height: 160px;
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
 }
-#menu .busine {
-display: none;
 
+.menu-list li {
+    list-style: none;
 }
-#menu .bds {
 
-display: none;
+.menu-list a {
+    line-height: 32px;
+    width: 100px;
 }
-#menu .sport {
-display: none;
 
-}
-#menu .job {
-display: none;
-
-}
-#menu .mercy {
-display: none;
-
-}
-#menu .heath {
-display: none;
-
-}
-#menu .cultural {
-
-display: none;
-}
-#menu .entertain {
-display: none;
-
-}
-#menu .car {
-display: none;
-
-}
-#menu .power {
-display: none;
-
-}
-#menu .edu {
-
-display: none;
-}
-#menu .law {
-display: none;
-
+.menu-all > li:hover .menu-list  {
+    display: block;
+    background-color: grey;
 }
