@@ -9,6 +9,7 @@
 }
 
 #main {
+
     top: 0;
     left: 0;
     right: 0;
@@ -41,8 +42,7 @@ position: relative;
 border-bottom: 3px solid green;
 }
 
-.menu-list {
-    
+.menu-list { 
     display: none;
     position: absolute;
     margin-top: 2px;
@@ -74,6 +74,10 @@ border-bottom: 3px solid green;
     float: left;
 }
 
+#slide a:hover {
+    color: #06c;
+}
+
 .slide-item-1 {
 width: 280px;
 float: left;
@@ -81,6 +85,10 @@ float: left;
 
 .slide-item-1 img{
     width: 280px;
+}
+
+.slide-item-1 a {
+    font-weight: 600;
 }
 
 .covid {
@@ -97,11 +105,28 @@ float: left;
     font-size: 18px;
     color: black;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .foob p {
     padding: 20px 0;
     border-bottom: 1px solid gray ;
+}
+
+.item-con {
+    padding: 10px 0 24px 0;
+    border-bottom: 1px solid gray;
+}
+
+.item-con img {
+    width: 110px;
+    padding-right: 10px;
+  
+}
+
+.item-con a {
+    font-size: 14px; 
+    font-weight: 600;  
 }
 
 .slide-item-2 {
@@ -114,13 +139,41 @@ float: left;
     color: black;
     font-size: 24px;
     text-decoration: none;
+    font-weight: 600;
 }
 
 .slide-item-2 p {
+    font-size: 18px;
     padding: 20px 0;
     border-bottom: 1px solid gray ;
 }
 .slide-item-3 {
     width: 320px;
     float: left;
+    
+}
+
+.slide-item-3 a {
+   display: block;
+   font-weight: 600;
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+}
+
+.slide-item-3 i {
+    background-position: right bottom;
+}
+.slide-item-3 p {
+    font-weight: 100;
+    float: left;
+    padding: 20px 0 20px 244px;
+}
+
+.slide-item-3 .blog {
+    float: left;
+    display: block;
+    text-transform:uppercase;
+    font-weight: 300;
+    padding: 20px 0;
 }
