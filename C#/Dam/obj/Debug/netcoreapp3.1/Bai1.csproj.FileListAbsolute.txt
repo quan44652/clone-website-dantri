@@ -1,0 +1,13 @@
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.exe
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.deps.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.runtimeconfig.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.runtimeconfig.dev.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.dll
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Bai1.pdb
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.GeneratedMSBuildEditorConfig.editorconfig
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.AssemblyInfoInputs.cache
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.AssemblyInfo.cs
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.csproj.CoreCompileInputs.cache
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.dll
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.pdb
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Bai1.genruntimeconfig.cache
