@@ -9,10 +9,6 @@
 }
 
 #main {
-
-    top: 0;
-    left: 0;
-    right: 0;
     height: 32px;
     border-bottom: 1px solid #e6e6e6;
     width: 1200px;
@@ -20,6 +16,7 @@
 
 }
 
+/* start menu */
 .menu-all  li >  a {
 text-decoration: none;
 font-size: 12px;
@@ -46,18 +43,18 @@ border-bottom: 3px solid green;
     display: none;
     position: absolute;
     margin-top: 2px;
+    min-width: 240px;
 }
 
 .menu-list li {
     list-style: none;
-    display: block; 
-    min-width: 240px;
+    
 }
 
 .menu-list a {
     line-height: 32px;
-    display: block;
     padding-left: 12px;
+    
 }
 
 .menu-list li a:hover {
@@ -67,11 +64,16 @@ border-bottom: 3px solid green;
 .menu-all > li:hover .menu-list  {
     display: block;
     background: #e6e6e6 none; 
+    border-radius: 5px;
 }
+
+/* end menu */
 
 #slide {
     margin-top: 18px;
     float: left;
+    border-bottom: 1px solid grey;
+    height: 1001px;
 }
 
 #slide a:hover {
@@ -129,13 +131,16 @@ float: left;
     font-weight: 600;  
 }
 
+/* end slide-item-1 */
+
 .slide-item-2 {
     width: 540px;
     float: left;
     margin: 0 30px;
+    display: inline-block;
 }
 
-.slide-item-2 a {
+.slide-item-2 .slide-item-a {
     color: black;
     font-size: 24px;
     text-decoration: none;
@@ -147,33 +152,61 @@ float: left;
     padding: 20px 0;
     border-bottom: 1px solid gray ;
 }
+.slide-item-2 .divL {
+    margin-top: 24px;
+    width: 255px;
+    float: left;
+}
+.slide-item-2 .divR {  
+    margin-top: 24px;
+    margin-left: 30px;
+    width: 255px;
+    float: left;
+}
+
+.sub-slide-item-2 a {
+    display: block;
+    padding-top: 8px;
+    color: black;
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 600;
+}
+/* end slide-item-2 */
 .slide-item-3 {
     width: 320px;
     float: left;
     
 }
 
+.slide-item-3 .sub-slide-item-3 {
+border-bottom:1px solid rgb(199, 196, 196);
+}
+
 .slide-item-3 a {
-   display: block;
-   font-weight: 600;
-   text-decoration: none;
-   color: black;
-   font-size: 16px;
-}
-
-.slide-item-3 i {
-    background-position: right bottom;
-}
-.slide-item-3 p {
-    font-weight: 100;
-    float: left;
-    padding: 20px 0 20px 244px;
-}
-
-.slide-item-3 .blog {
-    float: left;
     display: block;
-    text-transform:uppercase;
-    font-weight: 300;
-    padding: 20px 0;
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+    font-weight: 600;
+    padding-bottom: 36px;
+
 }
+
+.slide-item-3 .DMagazine {
+    color: green;
+    font-variant:inherit;
+    font-size: 18px;
+    padding: 12px 0;
+}
+
+.slide-item-3 img {
+    margin: 28px 0 0 24px;
+}
+
+.slide-item-img {
+    width: 300px;
+}
+
+
+
