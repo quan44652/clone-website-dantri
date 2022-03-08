@@ -1,0 +1,14 @@
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.exe
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.deps.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.runtimeconfig.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.runtimeconfig.dev.json
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.dll
+E:\anhnh\DamNV\Dam\bin\Debug\netcoreapp3.1\Dam.pdb
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.csproj.AssemblyReference.cache
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.GeneratedMSBuildEditorConfig.editorconfig
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.AssemblyInfoInputs.cache
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.AssemblyInfo.cs
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.csproj.CoreCompileInputs.cache
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.dll
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.pdb
+E:\anhnh\DamNV\Dam\obj\Debug\netcoreapp3.1\Dam.genruntimeconfig.cache
