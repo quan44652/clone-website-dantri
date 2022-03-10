@@ -1,242 +1,283 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <script src="./js/main.js"></script>
-</head>
-<body>
-<div id="main">
-    <!-- start menu -->
-    <div id="menu">
-        <ul class="menu-all">
-            <li><a href="#"><i class="fa-solid fa-house-user"></i></a></li>
-            <li><a href="#">VIDEO</a></li>
-            <li><a href="#">SỰ KIỆN</a></li>
-            <li>
-                <a href="#">Xã hội</a>
-                <ul class="menu-list">
-                    <li><a href="#">Chính trị</a></li>
-                    <li><a href="#">Môi trường</a></li>
-                    <li><a href="#">Giao thông</a></li>
-                    <li><a href="#">Nóng trên mạng</a></li>
-                    <li><a href="#">Chuyện ngày mới</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">THẾ GIỚI</a>
-                <ul class="menu-list">
-                    <li><a href="#">TÀI CHÍNH</a></li>
-                    <li><a href="#">CHỨNG KHOÁN</a></li>
-                    <li><a href="#">DOANH NGHIỆP</a></li>
-                    <li><a href="#">KHỞI NGHIỆP</a></li>
-                    <li><a href="#">TIÊU DÙNG</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">KINH DOANH</a>  
-                <ul class="menu-list">
-                    <li><a href="#">DỰ ÁN</a></li>
-                    <li><a href="#">THỊ TRƯỜNG</a></li>
-                    <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
-                    <li><a href="#">SỐNG XANH</a></li>
-                    <li><a href="#">NỘI THẤT</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">BẤT ĐỘNG SẢN</a>
-                <ul class="menu-list">
-                    <li><a href="#">BÓNG ĐÁ TRONG NƯỚC</a></li>
-                    <li><a href="#">BÓNG ĐÁ CHÂU ÂU</a></li>
-                    <li><a href="#">TENNIS</a></li>
-                    <li><a href="#">GOLF</a></li>
-                    <li><a href="#">VÕ THUẬT</a></li>
-                    <li><a href="#">CÁC MÔN THỂ THAO KHÁC</a></li>
-                    <li><a href="#">HẬU TRƯỜNG</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">THỂ THAO</a>
-                <ul class="menu-list">
-                    <li><a href="#">CHÍNH SÁCH VIỆC LÀM</a></li>
-                    <li><a href="#">VIỆC LÀM</a></li>
-                    <li><a href="#">ĐƯA NGHỊ QUYẾT 68 VÀO CUỘC SỐNG</a></li>
-                    <li><a href="#">XUẤT KHẨU LAO ĐỘNG</a></li>
-                    <li><a href="#">CHÚNG TÔI NÓI</a></li>      
-                </ul>
-            </li>
-            <li>
-                <a href="#">VIỆC LÀM</a>
-                <ul class="menu-list">
-                    <li><a href="#">DỰ ÁN</a></li>
-                    <li><a href="#">THỊ TRƯỜNG</a></li>
-                    <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
-                    <li><a href="#">SỐNG XANH</a></li>
-                    <li><a href="#">NỘI THẤT</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">NHÂN ÁI</a>
-                <ul class="menu-list">
-                    <li><a href="#">DANH SÁCH ỦNG HỘ</a></li>
-                    <li><a href="#">DANH SÁCH KẾT CHUẨN</a></li>
-                    <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
-                    <li><a href="#">HOÀN CẢNH</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">SỨC KHỎE</a>
-                <ul class="menu-list">
-                    <li><a href="#">UNG THƯ</a></li>
-                    <li><a href="#">VẮC XIN COVID-19</a></li>
-                    <li><a href="#">KIẾN THỨC GIỚI TÍNH</a></li>
-                    <li><a href="#">TƯ VẤN</a></li>
-                    <li><a href="#">KHỎE ĐẸP</a></li>
-                    <li><a href="#">ĐẠI DỊCH COVID-19</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">VĂN HÓA</a>
-                <ul class="menu-list" >
-                    <li><a href="#">ĐỜI SỐNG VĂN HÓA</a></li>
-                    <li><a href="#">ĐIỆN ẢNH</a></li>
-                    <li><a href="#">ÂM NHẠC</a></li>
-                    <li><a href="#">VĂN HỌC</a></li>
-                    <li><a href="#">HẠT GIỐNG TÂM HỒN</a></li>
-                    <li><a href="#">HƯƠNG VỊ VIỆT</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">GIẢI TRÍ</a>
-                <ul class="menu-list">
-                    <li><a href="#">HẬU TRƯỜNG</a></li>
-                    <li><a href="#">THỜI TRANG</a></li>
-                    <li><a href="#">TVSHOP</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">XE ++</a>
-                <ul class="menu-list">
-                    <li><a href="#">THỊ TRƯỜNG XE</a></li>
-                    <li><a href="#">XE ĐIỆN</a></li>
-                    <li><a href="#">ĐÁNH GIÁ</a></li>
-                    <li><a href="#">CỘNG ĐỒNG XE</a></li>
-                    <li><a href="#">KHINH NGHIỆM TƯ VẤN</a></li>
-                    <li><a href="#">BẢNG GIÁ Ô TÔ</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">SỨC MẠNH SỐ</a>
-                <ul class="menu-list">
-                    <li><a href="#">SẢN PHẨM</a></li>
-                    <li><a href="#">DI ĐỘNG-VIỄN THÔNG</a></li>
-                    <li><a href="#">PHẦN MỀM-BẢO MẬT</a></li>
-                    <li><a href="#">CỘNG ĐỒNG MẠNG</a></li>
-                </ul>
-            </li>
-            <li>
-                <a href="#">GIÁO DỤC</a>
-                <ul class="menu-list">
-                    <li><a href="#">GÓC PHỤ HUYNH</a></li>
-                    <li><a href="#">KHUYẾN HỌC</a></li>
-                    <li><a href="#">GƯƠNG SÁNG</a></li>
-                    <li><a href="#">GIÁO DỤC-NGHỀ NGHIỆP</a></li>
-                    <li><a href="#">DU HỌC</a></li>
-                    <li><a href="#">TUYỂN SINH</a></li>
-                </ul>
-            </li>
-            <li><a href="#">AN SINH</a></li>
-            <li>
-                <a href="#">PHÁP LUẬT</a>
-                <ul class="menu-list">
-                    <li><a href="#">HỒ SƠ VỤ ÁN</a></li>
-                    <li><a href="#">PHÁP ĐÌNH</a></li>
-                </ul>
-            </li>
-        </ul>
-    </div>
-    <!-- end menu -->
-    <div id="slide">
-        <div class="slide-item-1">
-            <img src="./assets/img/covid-19.png" alt="covid-19" >
-            <a class="covid" href="#">Xem tất cả tin tức covid-19</a>
-            <div class="foob">
-                <img src="./assets/img/bóng đá.jpeg" alt="">
-                <a href="#">Leeds 0-0 Man Utd (hiệp 1): "Quỷ đỏ" sớm gặp khó khăn</a>
-                <p>Leeds đang khởi đầu mạnh mẽ khi được thi đấu trên sân nhà tiếp Man Utd ở vòng 26 Premier League. Đội chủ nhà chỉ mất năm phút để có cơ hội ghi bàn đầu tiên.</p>
-               <div class="item-con">
-                <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
-               </div>
-               <div class="item-con">
-                <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
-               </div>
-               <div class="item-con">
-                <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
-               </div>
-               <div class="item-con">
-                <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
-               </div>
-               <div class="item-con">
-                <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
-               </div>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <script src="./js/main.js"></script>
+    </head>
+    <body>
+    <div id="main">
+        <!-- start menu -->
+        <div id="menu">
+            <ul class="menu-all">
+                <li><a href="#"><i class="fa-solid fa-house-user"></i></a></li>
+                <li><a href="#">VIDEO</a></li>
+                <li><a href="#">SỰ KIỆN</a></li>
+                <li>
+                    <a href="#">Xã hội</a>
+                    <ul class="menu-list">
+                        <li><a href="#">Chính trị</a></li>
+                        <li><a href="#">Môi trường</a></li>
+                        <li><a href="#">Giao thông</a></li>
+                        <li><a href="#">Nóng trên mạng</a></li>
+                        <li><a href="#">Chuyện ngày mới</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">THẾ GIỚI</a>
+                    <ul class="menu-list">
+                        <li><a href="#">TÀI CHÍNH</a></li>
+                        <li><a href="#">CHỨNG KHOÁN</a></li>
+                        <li><a href="#">DOANH NGHIỆP</a></li>
+                        <li><a href="#">KHỞI NGHIỆP</a></li>
+                        <li><a href="#">TIÊU DÙNG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">KINH DOANH</a>  
+                    <ul class="menu-list">
+                        <li><a href="#">DỰ ÁN</a></li>
+                        <li><a href="#">THỊ TRƯỜNG</a></li>
+                        <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
+                        <li><a href="#">SỐNG XANH</a></li>
+                        <li><a href="#">NỘI THẤT</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">BẤT ĐỘNG SẢN</a>
+                    <ul class="menu-list">
+                        <li><a href="#">BÓNG ĐÁ TRONG NƯỚC</a></li>
+                        <li><a href="#">BÓNG ĐÁ CHÂU ÂU</a></li>
+                        <li><a href="#">TENNIS</a></li>
+                        <li><a href="#">GOLF</a></li>
+                        <li><a href="#">VÕ THUẬT</a></li>
+                        <li><a href="#">CÁC MÔN THỂ THAO KHÁC</a></li>
+                        <li><a href="#">HẬU TRƯỜNG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">THỂ THAO</a>
+                    <ul class="menu-list">
+                        <li><a href="#">CHÍNH SÁCH VIỆC LÀM</a></li>
+                        <li><a href="#">VIỆC LÀM</a></li>
+                        <li><a href="#">ĐƯA NGHỊ QUYẾT 68 VÀO CUỘC SỐNG</a></li>
+                        <li><a href="#">XUẤT KHẨU LAO ĐỘNG</a></li>
+                        <li><a href="#">CHÚNG TÔI NÓI</a></li>      
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">VIỆC LÀM</a>
+                    <ul class="menu-list">
+                        <li><a href="#">DỰ ÁN</a></li>
+                        <li><a href="#">THỊ TRƯỜNG</a></li>
+                        <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
+                        <li><a href="#">SỐNG XANH</a></li>
+                        <li><a href="#">NỘI THẤT</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">NHÂN ÁI</a>
+                    <ul class="menu-list">
+                        <li><a href="#">DANH SÁCH ỦNG HỘ</a></li>
+                        <li><a href="#">DANH SÁCH KẾT CHUẨN</a></li>
+                        <li><a href="#">NHỊP SỐNG ĐÔ THỊ</a></li>
+                        <li><a href="#">HOÀN CẢNH</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">SỨC KHỎE</a>
+                    <ul class="menu-list">
+                        <li><a href="#">UNG THƯ</a></li>
+                        <li><a href="#">VẮC XIN COVID-19</a></li>
+                        <li><a href="#">KIẾN THỨC GIỚI TÍNH</a></li>
+                        <li><a href="#">TƯ VẤN</a></li>
+                        <li><a href="#">KHỎE ĐẸP</a></li>
+                        <li><a href="#">ĐẠI DỊCH COVID-19</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">VĂN HÓA</a>
+                    <ul class="menu-list" >
+                        <li><a href="#">ĐỜI SỐNG VĂN HÓA</a></li>
+                        <li><a href="#">ĐIỆN ẢNH</a></li>
+                        <li><a href="#">ÂM NHẠC</a></li>
+                        <li><a href="#">VĂN HỌC</a></li>
+                        <li><a href="#">HẠT GIỐNG TÂM HỒN</a></li>
+                        <li><a href="#">HƯƠNG VỊ VIỆT</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">GIẢI TRÍ</a>
+                    <ul class="menu-list">
+                        <li><a href="#">HẬU TRƯỜNG</a></li>
+                        <li><a href="#">THỜI TRANG</a></li>
+                        <li><a href="#">TVSHOP</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">XE ++</a>
+                    <ul class="menu-list">
+                        <li><a href="#">THỊ TRƯỜNG XE</a></li>
+                        <li><a href="#">XE ĐIỆN</a></li>
+                        <li><a href="#">ĐÁNH GIÁ</a></li>
+                        <li><a href="#">CỘNG ĐỒNG XE</a></li>
+                        <li><a href="#">KHINH NGHIỆM TƯ VẤN</a></li>
+                        <li><a href="#">BẢNG GIÁ Ô TÔ</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">SỨC MẠNH SỐ</a>
+                    <ul class="menu-list">
+                        <li><a href="#">SẢN PHẨM</a></li>
+                        <li><a href="#">DI ĐỘNG-VIỄN THÔNG</a></li>
+                        <li><a href="#">PHẦN MỀM-BẢO MẬT</a></li>
+                        <li><a href="#">CỘNG ĐỒNG MẠNG</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">GIÁO DỤC</a>
+                    <ul class="menu-list">
+                        <li><a href="#">GÓC PHỤ HUYNH</a></li>
+                        <li><a href="#">KHUYẾN HỌC</a></li>
+                        <li><a href="#">GƯƠNG SÁNG</a></li>
+                        <li><a href="#">GIÁO DỤC-NGHỀ NGHIỆP</a></li>
+                        <li><a href="#">DU HỌC</a></li>
+                        <li><a href="#">TUYỂN SINH</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">AN SINH</a></li>
+                <li>
+                    <a href="#">PHÁP LUẬT</a>
+                    <ul class="menu-list">
+                        <li><a href="#">HỒ SƠ VỤ ÁN</a></li>
+                        <li><a href="#">PHÁP ĐÌNH</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <!-- end menu -->
+        <div id="slide">
+            <div class="slide-item-1">
+                <img src="./assets/img/covid-19.png" alt="covid-19" >
+                <a class="covid" href="#">Xem tất cả tin tức covid-19</a>
+                <div class="foob">
+                    <img src="./assets/img/bóng đá.jpeg" alt="">
+                    <a href="#">Leeds 0-0 Man Utd (hiệp 1): "Quỷ đỏ" sớm gặp khó khăn</a>
+                    <p>Leeds đang khởi đầu mạnh mẽ khi được thi đấu trên sân nhà tiếp Man Utd ở vòng 26 Premier League. Đội chủ nhà chỉ mất năm phút để có cơ hội ghi bàn đầu tiên.</p>
+                <div class="item-con">
+                    <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
+                </div>
+                <div class="item-con">
+                    <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
+                </div>
+                <div class="item-con">
+                    <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
+                </div>
+                <div class="item-con">
+                    <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
+                </div>
+                <div class="item-con">
+                    <a  href="#"><img align="left" src="./assets/img/du-lich.jpeg" alt="">Nhịp sống khách du lịch và người dân Sapa dưới cái rét 0 độ C</a>
+                </div>
+                </div>
+            </div>     
+            <div class="slide-item-2">
+            <div class="sub-slide-item-2">
+                <img src="./assets/img/putin.jpeg" alt="">
+                <a class="slide-item-a" href="#">Sáng 21/2, F0 tăng vọt ở nhiều địa phương, hơn 13.400 bệnh nhân khỏi bệnh</a>
+                <p>Nhiều địa phương vượt ngưỡng 1.000 ca mắc. Hà Nội vượt ngưỡng 5.000 ca. F0 mới ở miền Tây đa số là ca cộng đồng.</p>     
             </div>
-        </div>     
-        <div class="slide-item-2">
-           <div class="sub-slide-item-2">
-            <img src="./assets/img/putin.jpeg" alt="">
-            <a class="slide-item-a" href="#">Sáng 21/2, F0 tăng vọt ở nhiều địa phương, hơn 13.400 bệnh nhân khỏi bệnh</a>
-            <p>Nhiều địa phương vượt ngưỡng 1.000 ca mắc. Hà Nội vượt ngưỡng 5.000 ca. F0 mới ở miền Tây đa số là ca cộng đồng.</p>     
-           </div>
-           <div class="sub-slide-item-2">
-               <div class="divL">
+            <div class="sub-slide-item-2">
+                <div class="divL">
+                    <img src="./assets/img/image-1.webp" alt="">
+                    <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
+                </div>
+                <div class="divR">
+                    <img src="./assets/img/image-1.webp" alt="">
+                    <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="sub-slide-item-2">
+                <div class="divL">
                 <img src="./assets/img/image-1.webp" alt="">
                 <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
-               </div>
-               <div class="divR">
+                </div>
+                <div class="divR">
                 <img src="./assets/img/image-1.webp" alt="">
                 <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
-               </div>
-               <div class="clear"></div>
-           </div>
-           <div class="sub-slide-item-2">
-            <div class="divL">
-             <img src="./assets/img/image-1.webp" alt="">
-             <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
+                </div>
+                <div class="clear"></div>
             </div>
-            <div class="divR">
-             <img src="./assets/img/image-1.webp" alt="">
-             <a href="#">Tổng thống Ukraine sẵn sàng đàm phán với Nga về Crimea và Donbass</a>
+            </div>
+            <div class="slide-item-3">
+                <div class="sub-slide-item-3">
+                    <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
+                    <a class="DMagazine" href="#">DMagazine</a>
+                    <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
+                </div>
+                <div class="sub-slide-item-3">
+                    <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
+                    <a class="DMagazine" href="#">DMagazine</a>
+                    <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
+                </div>
+                <div class="sub-slide-item-3">
+                    <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
+                    <a class="DMagazine" href="#">DMagazine</a>
+                    <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
+                </div>
+                <div class="sub-slide-item-3">
+                    <img class="slide-item-img" src="./assets/img/image2.png" alt="">
+                </div>              
+            </div>   
+        </div>
+        <!-- end slide -->
+        <div id="banner">
+            <img src="./assets/img/banner.png" alt="">
+        </div>
+        <!-- end banner -->
+        <div id="content">
+            <div class="content-L">
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
+            </div>
+            <div class="content-R">
+                <div class="sub-content">
+                    <a href="">Nga nói bệnh viện nhi bị ném bom ở Mariupol là "cơ sở quân sự" của Ukraine</a>
+                    <img align="left" src="./assets/img/image-3.webp" alt="">
+                    <p> Nga bác bỏ cáo buộc từ Ukraine rằng họ ném bom vào dân thường ở bệnh viện ở Mariupol, cho rằng Kiev đã chuyển công trình này thành "cơ sở quân sự" từ trước đó.</p>                             
+                </div>
             </div>
             <div class="clear"></div>
         </div>
-        </div>
-        <di class="slide-item-3">
-            <div class="sub-slide-item-3">
-                <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
-                <a class="DMagazine" href="#">DMagazine</a>
-                <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
-            </div>
-            <div class="sub-slide-item-3">
-                <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
-                <a class="DMagazine" href="#">DMagazine</a>
-                <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
-            </div>
-            <div class="sub-slide-item-3">
-                <img align="right" src="./assets/img/nhan-hoa-hong.jpeg" alt="">
-                <a class="DMagazine" href="#">DMagazine</a>
-                <a href="#">Tại sao dầu lại siêu quan trọng với nền kinh tế Nga?</a>
-            </div>
-            <div class="sub-slide-item-3">
-                <img class="slide-item-img" src="./assets/img/image2.png" alt="">
-            </div>
-            </div>
-        </div>      
-        #     
+    
     </div>
-</div>
-</body>
-</html>
+    </body>
+    </html>
