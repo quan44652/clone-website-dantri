@@ -264,7 +264,7 @@ margin: 32px 0;
 
 .sub-content-R {
     list-style: none;
-
+   
 }
 
 .sub-content-R li {
@@ -276,6 +276,7 @@ margin: 32px 0;
     font-size: 16px;
     padding: 0 6px;
     font-weight: 600;
+    margin-left: 16px;
 }
 
 #sub-content-R-item {
@@ -286,7 +287,26 @@ margin: 32px 0;
     font-weight: 600;
 }
 
-.list-content-R a {
+.list-content-R {
+    width: 400px;
+}
+
+.list-conten-item {
+ margin-top: 12px;
+ height: 110px;
+}
+
+.list-conten-item img {
+    margin-right: 12px;
+}
+.list-conten-item a {
 text-decoration: none;
 color: black;
+font-size: 16px;
+font-weight: 600;
+}
+ 
+.link-list {
+    width: 200px;
+    float: left;
 }
